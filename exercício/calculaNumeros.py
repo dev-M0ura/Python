@@ -1,0 +1,10 @@
+num1=int(input("digite o primeiro: "))
+num2=int(input("digite o segundo: "))
+soma=num1+num2
+sub=num1-num2
+mul=num1*num2
+div=num1/num2
+print(f'''a soma de {num1}+{num2} = {soma}
+a subtraçao de {num1}-{num2} = {sub}
+a divisao de {num1}/{num2} = {div}
+a multiplicação de {num1}*{num2} = {mul}''')
